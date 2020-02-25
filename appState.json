@@ -134,6 +134,28 @@
         "children": [],
         "isRemovable": true,
         "filePath": "subdir2/__init__.py"
+      },
+      "5544f1f0-1528-4970-801d-5f38b7daa9ae": {
+        "id": "5544f1f0-1528-4970-801d-5f38b7daa9ae",
+        "parent": null,
+        "name": "py2.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "py2.py",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "python2.7",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
       }
     },
     "openFiles": [
@@ -141,9 +163,10 @@
       "5b2df4ef-e782-4583-93da-cbcc81414666",
       "086fee72-7c95-4dd4-b9d0-14d6e9b862f4",
       "c455c99d-ccf5-4011-9219-e56d8c4cbe1f",
-      "05b95bfb-3ccd-4dce-953d-c158f9805948"
+      "05b95bfb-3ccd-4dce-953d-c158f9805948",
+      "5544f1f0-1528-4970-801d-5f38b7daa9ae"
     ],
-    "currentFileId": "05b95bfb-3ccd-4dce-953d-c158f9805948",
+    "currentFileId": "5544f1f0-1528-4970-801d-5f38b7daa9ae",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -171,7 +194,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1582617169035
+    "lastSave": 1582617227302
   },
   "VCS_STATE": {
     "provider": "GitHub",

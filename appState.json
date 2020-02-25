@@ -22,12 +22,47 @@
           "layers": []
         },
         "triggers": []
+      },
+      "07c4edae-6055-4239-810d-7baeaa9e9c63": {
+        "id": "07c4edae-6055-4239-810d-7baeaa9e9c63",
+        "parent": null,
+        "name": "subdir1",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "5b2df4ef-e782-4583-93da-cbcc81414666"
+        ],
+        "isRemovable": true,
+        "filePath": "subdir1"
+      },
+      "5b2df4ef-e782-4583-93da-cbcc81414666": {
+        "id": "5b2df4ef-e782-4583-93da-cbcc81414666",
+        "parent": "07c4edae-6055-4239-810d-7baeaa9e9c63",
+        "name": "new1.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "subdir1/new1.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
       }
     },
     "openFiles": [
-      "77823dbc-b8a9-418d-a0df-5ca3303a1d17"
+      "77823dbc-b8a9-418d-a0df-5ca3303a1d17",
+      "5b2df4ef-e782-4583-93da-cbcc81414666"
     ],
-    "currentFileId": "77823dbc-b8a9-418d-a0df-5ca3303a1d17",
+    "currentFileId": "5b2df4ef-e782-4583-93da-cbcc81414666",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -55,7 +90,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1582616544913
+    "lastSave": 1582616620227
   },
   "VCS_STATE": {
     "provider": "GitHub",

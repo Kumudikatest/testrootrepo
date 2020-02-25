@@ -86,7 +86,9 @@
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "c455c99d-ccf5-4011-9219-e56d8c4cbe1f"
+          "c455c99d-ccf5-4011-9219-e56d8c4cbe1f",
+          "05b95bfb-3ccd-4dce-953d-c158f9805948",
+          "ce02bb5e-6b4b-4748-be08-f05b3e0412e5"
         ],
         "isRemovable": true,
         "filePath": "subdir2"
@@ -100,15 +102,48 @@
         "children": [],
         "isRemovable": true,
         "filePath": "subdir2/js1.js"
+      },
+      "05b95bfb-3ccd-4dce-953d-c158f9805948": {
+        "id": "05b95bfb-3ccd-4dce-953d-c158f9805948",
+        "parent": "30afbb2b-8e6a-426b-b256-2f8314ccaf4e",
+        "name": "py1.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "subdir2/py1.py",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "python2.7",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "ce02bb5e-6b4b-4748-be08-f05b3e0412e5": {
+        "id": "ce02bb5e-6b4b-4748-be08-f05b3e0412e5",
+        "parent": "30afbb2b-8e6a-426b-b256-2f8314ccaf4e",
+        "name": "__init__.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "subdir2/__init__.py"
       }
     },
     "openFiles": [
       "77823dbc-b8a9-418d-a0df-5ca3303a1d17",
       "5b2df4ef-e782-4583-93da-cbcc81414666",
       "086fee72-7c95-4dd4-b9d0-14d6e9b862f4",
-      "c455c99d-ccf5-4011-9219-e56d8c4cbe1f"
+      "c455c99d-ccf5-4011-9219-e56d8c4cbe1f",
+      "05b95bfb-3ccd-4dce-953d-c158f9805948"
     ],
-    "currentFileId": "c455c99d-ccf5-4011-9219-e56d8c4cbe1f",
+    "currentFileId": "05b95bfb-3ccd-4dce-953d-c158f9805948",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -136,7 +171,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1582617104988
+    "lastSave": 1582617169035
   },
   "VCS_STATE": {
     "provider": "GitHub",

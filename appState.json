@@ -78,6 +78,16 @@
           "layers": []
         },
         "triggers": []
+      },
+      "30afbb2b-8e6a-426b-b256-2f8314ccaf4e": {
+        "id": "30afbb2b-8e6a-426b-b256-2f8314ccaf4e",
+        "parent": null,
+        "name": "subdir2",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "subdir2"
       }
     },
     "openFiles": [
@@ -85,7 +95,7 @@
       "5b2df4ef-e782-4583-93da-cbcc81414666",
       "086fee72-7c95-4dd4-b9d0-14d6e9b862f4"
     ],
-    "currentFileId": "086fee72-7c95-4dd4-b9d0-14d6e9b862f4",
+    "currentFileId": "77823dbc-b8a9-418d-a0df-5ca3303a1d17",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -113,7 +123,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1582616953716
+    "lastSave": 1582617064809
   },
   "VCS_STATE": {
     "provider": "GitHub",

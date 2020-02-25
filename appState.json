@@ -56,13 +56,36 @@
           "layers": []
         },
         "triggers": []
+      },
+      "086fee72-7c95-4dd4-b9d0-14d6e9b862f4": {
+        "id": "086fee72-7c95-4dd4-b9d0-14d6e9b862f4",
+        "parent": null,
+        "name": "new2.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "new2.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
       }
     },
     "openFiles": [
       "77823dbc-b8a9-418d-a0df-5ca3303a1d17",
-      "5b2df4ef-e782-4583-93da-cbcc81414666"
+      "5b2df4ef-e782-4583-93da-cbcc81414666",
+      "086fee72-7c95-4dd4-b9d0-14d6e9b862f4"
     ],
-    "currentFileId": "5b2df4ef-e782-4583-93da-cbcc81414666",
+    "currentFileId": "086fee72-7c95-4dd4-b9d0-14d6e9b862f4",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -90,7 +113,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1582616620227
+    "lastSave": 1582616953716
   },
   "VCS_STATE": {
     "provider": "GitHub",
